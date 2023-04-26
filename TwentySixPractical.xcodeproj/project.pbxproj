@@ -13,6 +13,11 @@
 		0406FA3029F645DA00352B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0406FA2E29F645DA00352B91 /* Main.storyboard */; };
 		0406FA3229F645DD00352B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406FA3129F645DD00352B91 /* Assets.xcassets */; };
 		0406FA3529F645DD00352B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0406FA3329F645DD00352B91 /* LaunchScreen.storyboard */; };
+		0406FA3E29F649E400352B91 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406FA3C29F649E400352B91 /* TableViewCell.swift */; };
+		0406FA3F29F649E400352B91 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0406FA3D29F649E400352B91 /* TableViewCell.xib */; };
+		045E67EF29F6528500280238 /* BackDataPassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E67EE29F6528500280238 /* BackDataPassing.swift */; };
+		045E67F129F6539B00280238 /* StudentBackDataPassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E67F029F6539B00280238 /* StudentBackDataPassing.swift */; };
+		045E67F329F6541E00280238 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E67F229F6541E00280238 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		0406FA3129F645DD00352B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0406FA3429F645DD00352B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0406FA3629F645DD00352B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0406FA3C29F649E400352B91 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0406FA3D29F649E400352B91 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		045E67EE29F6528500280238 /* BackDataPassing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackDataPassing.swift; sourceTree = "<group>"; };
+		045E67F029F6539B00280238 /* StudentBackDataPassing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentBackDataPassing.swift; sourceTree = "<group>"; };
+		045E67F229F6541E00280238 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				0406FA2A29F645DA00352B91 /* SceneDelegate.swift */,
 				0406FA2C29F645DA00352B91 /* ViewController.swift */,
 				0406FA2E29F645DA00352B91 /* Main.storyboard */,
+				045E67F229F6541E00280238 /* SecondViewController.swift */,
+				0406FA3C29F649E400352B91 /* TableViewCell.swift */,
+				0406FA3D29F649E400352B91 /* TableViewCell.xib */,
+				045E67EE29F6528500280238 /* BackDataPassing.swift */,
+				045E67F029F6539B00280238 /* StudentBackDataPassing.swift */,
 				0406FA3129F645DD00352B91 /* Assets.xcassets */,
 				0406FA3329F645DD00352B91 /* LaunchScreen.storyboard */,
 				0406FA3629F645DD00352B91 /* Info.plist */,
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0406FA3529F645DD00352B91 /* LaunchScreen.storyboard in Resources */,
+				0406FA3F29F649E400352B91 /* TableViewCell.xib in Resources */,
 				0406FA3229F645DD00352B91 /* Assets.xcassets in Resources */,
 				0406FA3029F645DA00352B91 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0406FA2D29F645DA00352B91 /* ViewController.swift in Sources */,
+				045E67EF29F6528500280238 /* BackDataPassing.swift in Sources */,
+				0406FA3E29F649E400352B91 /* TableViewCell.swift in Sources */,
 				0406FA2929F645DA00352B91 /* AppDelegate.swift in Sources */,
+				045E67F329F6541E00280238 /* SecondViewController.swift in Sources */,
+				045E67F129F6539B00280238 /* StudentBackDataPassing.swift in Sources */,
 				0406FA2B29F645DA00352B91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
